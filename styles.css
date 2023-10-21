@@ -1,0 +1,419 @@
+/* Default styles for larger screens */
+
+/* Add styles for the language switch buttons */
+.language-switch {
+    margin-right: 20px;
+}
+
+.language-switch button {
+    background-color: #FFD700; /* Gold */
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.language-switch button:hover {
+    background-color: #FFC100; /* Slightly darker gold on hover */
+}
+
+/* Add styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add styles for the header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333; /* Dark background color */
+    color: #fff;
+}
+
+/* Add styles for the logo */
+.logo {
+    font-size: 24px;
+}
+
+/* Add styles for navigation links */
+.nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+/* Add styles for the hero section */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero h2 {
+    font-size: 24px;
+}
+
+/* Add styles for other sections as needed */
+.menu, .about, .contact {
+    padding: 20px;
+}
+
+/* Add styles for the footer */
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Media queries for smaller screens (e.g., mobile) */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .nav ul {
+        flex-direction: column;
+    }
+
+    .nav a {
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero h2 {
+        font-size: 18px;
+    }
+
+    /* Adjust other section styles for smaller screens as needed */
+}
+/* Styles for heading sections */
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif; /* Use your desired font */
+    color: #FF6B6B; /* Stylish text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for emphasis */
+}
+
+/* Example styles for the hero section */
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero h2 {
+    font-size: 24px;
+}
+
+/* Example styles for other sections */
+.menu h2, .about h2, .contact h2 {
+    font-size: 24px;
+}
+
+/* Add more custom styles as needed for other sections */
+/* Styles for the header section headings */
+.header {
+    background-color: #333; /* Dark background color */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Stylish logo styles */
+.logo {
+    font-family: 'Poppins', sans-serif; /* Use your desired font */
+    font-size: 32px;
+    color: #FFD700; /* Gold color for the logo */
+    text-transform: uppercase; /* Uppercase text */
+}
+
+/* Styles for the language switch buttons */
+.language-switch {
+    margin: 10px 0;
+}
+
+.language-switch button {
+    background-color: #FFD700; /* Gold */
+    border: none;
+    color: #333; /* Dark text color */
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.language-switch button:hover {
+    background-color: #FFC100; /* Slightly darker gold on hover */
+}
+
+/* Example styles for the h1 and h2 elements in the header */
+.header h1 {
+    font-size: 36px;
+    margin: 10px 0;
+    text-transform: uppercase; /* Uppercase text */
+}
+
+.header h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    text-transform: uppercase; /* Uppercase text */
+}
+/* Styles for the Contact section */
+.contact {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contact-person img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.contact-person .details {
+    text-align: left;
+}
+
+.contact-person .name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-person .info {
+    font-size: 16px;
+    color: #555;
+}
+/* Styles for the Slideshow section */
+.slideshow {
+    text-align: center;
+    padding: 20px;
+}
+
+.slideshow h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.mySlides {
+    display: none;
+    text-align: center;
+}
+
+.mySlides img {
+    max-width: 100%;
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* Styles for slideshow navigation buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 30px;
+    user-select: none;
+    color: #fff;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+/* Styles for the header section */
+header {
+    background-color: #333; /* Background color for the header */
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styles for the social media icons */
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    margin-right: 10px; /* Add spacing between the icons */
+}
+
+.social-icons a img {
+    width: 30px; /* Adjust the icon size as needed */
+    height: 30px; /* Adjust the icon size as needed */
+    transition: transform 0.3s; /* Add a transition for hover effect */
+
+    /* Adjust the color of icons if needed */
+    filter: brightness(0) invert(1);
+}
+
+/* Apply a hover effect to the icons */
+.social-icons a img:hover {
+    transform: scale(1.2); /* Increase the size on hover */
+}
+/* Styles for the About Us section */
+#about-us {
+    padding: 20px;
+}
+
+#about-us h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#about-us p {
+    font-size: 18px;
+}
+
+/* Styles for the GST number section */
+#gst-number {
+    padding: 10px;
+    background-color: #f5f5f5; /* Light gray background color */
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#gst-number p {
+    font-size: 16px;
+    color: #333; /* Dark gray text color */
+}
+/* Styles for the Menu section */
+#menu {
+    padding: 20px;
+}
+
+#menu h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Styles for the menu items */
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    max-width: 100%; /* Ensure the image fits within the block */
+    border-radius: 5px; /* Rounded corners for the image */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.menu-item p {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Add more styles for the menu items as needed */
+/* Styles for the Menu section with the updated class name */
+#menu {
+    padding: 20px;
+}
+
+#menu h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Styles for the menu section */
+.menu-section {
+    margin-bottom: 20px;
+}
+
+.menu-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Styles for the sub-boxes */
+/* Styles for the sub-boxes */
+.sub-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Set a fixed width for the images to make them smaller */
+.sub-box img {
+    max-width: 100%;
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height */
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sub-box p {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
